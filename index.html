@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charser="utf-8">
+    <title>Graduate program training template</title>
+
+    <link rel="stylesheet" href="css/reveal.css">
+    <link rel="stylesheet" href="css/theme/nalys.css" id="theme">i
+
+        <!-- Theme used for syntax highlighting of code -->
+        <link rel="stylesheet" href="lib/css/zenburn.css">
+
+        <!-- Printing and PDF exports -->
+        <script>
+            var link = document.createElement( 'link' );
+            link.rel = 'stylesheet';
+            link.type = 'text/css';
+            link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+            document.getElementsByTagName( 'head' )[0].appendChild( link );
+        </script>
+  </head>
+  <body>
+      <div class="reveal">
+          <div class="slides">
+              <section>
+                      <h1>Training title</h1>
+                      <p>
+                      sub-title
+                      <small>by Author</small>
+                      </p>
+              </section>
+
+              <section>
+                  <section>
+                      <h2>first chapter</h2>
+                      <ul>
+                          <li>some stuff</li>
+                          <li>and stuff</li>
+                          <li>and other stuff</li>
+                          <li>and more stuff</li>
+                      </ul>
+                      <aside class="notes">
+                          <ul>
+                              <li></li>
+                          </ul>
+                      </aside>
+                  </section>
+
+                  <section>
+                      <p>
+                      stuff
+                      </p>
+                      <img data-src="img/stuff.png">
+                      <aside class="notes">
+                          <ul>
+                              <li></li>
+                          </ul>
+                      </aside>
+                  </section>
+              </section>
+
+              <section>
+                  <section>
+                      <h2>other chapter</h2>
+                      <ul>
+                          <li>one</li>
+                          <li>two</li>
+                          <li>three</li>
+                      </ul>
+                  </section>
+
+                  <section>
+                      <h2>one</h2>
+                      <ul>
+                          <li>a</li>
+                          <li>b</li>
+                          <li>c</li>
+                          <li>d</li>
+                      </ul>
+                  </section>
+              </section>
+          </div>
+      </div>
+
+      <script src="lib/js/head.min.js"></script>
+      <script src="js/reveal.js"></script>
+
+      <script>
+
+// More info https://github.com/hakimel/reveal.js#configuration
+Reveal.initialize({
+    controls: true,
+    progress: true,
+    history: true,
+    center: true,
+
+    transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+        // More info https://github.com/hakimel/reveal.js#dependencies
+    dependencies: [
+        { src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+        { src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+        { src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+        { src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+        { src: 'plugin/zoom-js/zoom.js', async: true },
+        { src: 'plugin/notes/notes.js', async: true }
+    ]
+});
+
+      </script>
+  </body>
+</html>
+
